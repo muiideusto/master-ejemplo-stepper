@@ -34,10 +34,40 @@ public:
      */
     void doStepBackward();
 
+        /**
+     *  
+     */
+    void doStepsForward(int steps);
+
+    /**
+     *  
+     */
+    void doStepsBackward(int steps);
+
+            /**
+     *  
+     */
+    void goForward();
+
+    /**
+     *  
+     */
+    void goBackward();
+
 private:    
     /**
      *  
      */
     void doStep(int direcction);
+
+    /**
+     *  
+     */
+    void doSteps(int direcction, int steps);
+
+    /**
+     *  
+     */
+    void go(int direcction);
 
 };
